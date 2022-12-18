@@ -1,0 +1,212 @@
+* {
+  font-family: "Roboto Slab", serif;
+}
+
+body {
+  background-color: #F0F6F6;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  margin-left: 18rem;
+  background-color: #303846;
+  padding: 4px 0px 0px 4px;
+  max-width: 55rem;
+  border-radius: 20px 20px 0px 0px;
+  margin-bottom: -20px;
+  box-shadow: darkgray 6px 6px 10px, darkgrey -5px 0px 15px;
+}
+
+.full-name {
+  margin-left: 15rem;
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 38px;
+  font-weight: 700;
+  transition: cubic-bezier(0.25, 0.46, 0.45, 0.94) 1s;
+}
+
+.headline {
+  color: darkgray;
+  font-size: 20px;
+  margin-top: -1rem;
+  margin-left: 16rem;
+  transition: cubic-bezier(0.25, 0.46, 0.45, 0.94) 1s;
+}
+
+.photo {
+  position: absolute;
+  max-width: 11rem;
+  border-radius: 10px;
+}
+
+.contacts {
+  margin-left: 10rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: -1.1rem;
+}
+
+.ico {
+  margin: 10px;
+}
+
+#mail, #tel, #addres {
+  font-weight: 400;
+  font-size: 16px;
+  color: darkgray;
+}
+
+#mail:hover {
+  transition: 0.5s;
+  font-size: 18px;
+  color: #fff;
+}
+
+#tel:hover {
+  transition: 0.5s;
+  font-size: 18px;
+  color: #fff;
+}
+
+#addres:hover {
+  transition: 0.5s;
+  font-size: 18px;
+  color: #fff;
+  cursor: default;
+}
+
+main {
+  position: relative;
+  margin-left: 18rem;
+  background-color: #fff;
+  max-width: calc(55rem - 55px);
+  height: 50rem;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  box-shadow: darkgray 6px 6px 10px, darkgrey -5px 0px 15px;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.ruler {
+  background-color: lightgray;
+  height: 2px;
+}
+
+.title {
+  font-size: 26px;
+  color: #303846;
+}
+
+.co-op {
+  margin-left: 2rem;
+}
+
+#lnu, #js {
+  color: darkgray;
+  margin-top: -1rem;
+}
+
+.projects-url {
+  color: #303846;
+  font-weight: 400;
+  font-size: 18px;
+  margin-right: 1rem;
+}
+
+.projects-url:hover {
+  text-decoration: underline;
+}
+
+.list-item {
+  list-style: none;
+  margin: 0.5rem;
+}
+
+.list-item:hover {
+  transition: 1s;
+  font-size: 20px;
+  text-shadow: darkgray 0px 5px 5px;
+}
+
+.fa-brands {
+  color: #624CAB;
+  margin-right: 1.2rem;
+}
+
+.fa-dollar-sign {
+  color: #62C370;
+}
+
+.fa-dice {
+  color: darkgray;
+}
+
+.fa-school {
+  color: navajowhite;
+}
+
+aside {
+  margin: -30px 0px 0px 10px;
+  padding: 10px 10px 10px 10px;
+  border-left: 2px solid lightgrey;
+  max-width: 12rem;
+}
+
+hr {
+  margin-top: 1rem;
+}
+
+.person-info, .linkedln {
+  margin-left: 1rem;
+}
+
+.linkedin-ttl, .birth {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.birth-date {
+  color: darkgray;
+  margin-top: -1rem;
+}
+
+.link-rel {
+  margin-top: -1rem;
+  color: #303846;
+}
+
+.link-rel:hover {
+  text-decoration: underline;
+  font-size: 18px;
+  transition: 0.5s;
+}
+
+.mark {
+  color: #303846;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.skill-item {
+  margin: 0.5rem 0rem 0rem 1rem;
+}
+
+.hobby-item {
+  color: #303846;
+  font-size: 18px;
+}/*# sourceMappingURL=style.css.map */
