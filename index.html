@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vitaliy's CV</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -13,7 +13,7 @@
 </head>
 <body>
     <header>
-        <img class="photo" src="photo-cutted.png">
+        <img class="photo" src="/photo-cutted.png">
         <h1 class="full-name">Vitaliy Havrona</h1>
         <p class="headline"> Front-end Developer</p>
         <div class="contacts">
@@ -31,8 +31,15 @@
                     <li>I am communicative and easily find a common language with anyone.</li>
                     <li>Not conflicted - I will always find a compromise.</li>
                     <li>I like to solve interesting problems - the more interesting, the better.</li>
-                    <li>Stress-resistant - I close deadlines with a stone face and fire inside!</li>
+                    <li>Stress-resistant - I close deadlines with a stone face and fire inside!)</li>
                 </ol>
+
+                <h3>Some tech knowledge:</h3>
+                <ul>
+                    <li class="tech-item">CI/CD - (jenkins and bamboo)</li>
+                    <li class="tech-item">SDLC - (waterfall,kanban)</li>
+                    <li class="tech-item">Strong Basics of GIT</li>
+                </ul>
                 <p>If you are still interested, check out my works below ;)</p>
             </section>
             <div class="ruler"></div>
@@ -40,7 +47,7 @@
 
                 <h1 class="title">Education</h1>
                 <div class="co-op">
-                    <h4>Software Engineer</h4>
+                    <h4>Software Engineer (2021 - 2025)</h4>
                     <p id="lnu">LNU named after Ivan Franko</p>
                 </div>
     
@@ -49,8 +56,8 @@
             <section class="courses">
                 <h1 class="title">Courses</h1>
                 <div class="co-op">
-                    <h4>Udemy</h4>
-                    <p id="js">JavaScript Full Course from Zero to Expert</p>
+                    <h4> JavaScript Full Course from Zero to Expert 2022 <span id="blured">(6 month)</span></h4>
+                    <p id="js">Udemy</p>
                 </div>
             </section>
             <div class="ruler"></div>
@@ -58,8 +65,11 @@
                 <h2>Projects</h2>
                 <ul class="list">
                     <li class="list-item"><i class="fa-brands fa-github fa-xl "></i><a class="projects-url" href="https://github.com/Xavtso/bankApp.git">Bank App</a> <i class="fa-solid fa-dollar-sign fa-lg"></i></li>
-                    <li class="list-item"><i class="fa-brands fa-github fa-xl"></i><a class="projects-url" href="https://github.com/Xavtso/PigGame.git">Pig Game</a> <i class="fa-solid fa-dice fa-lg"></i></i></li>
+                    <p class="project-info">A simple application created to learn how all array methods work. There is no backend, so all data is local and is updated to factory settings when the page is refreshed</p>
+                    <li class="list-item"><i class="fa-brands fa-github fa-xl"></i><a class="projects-url" href="https://xavtso.github.io/PigGame/">Pig Game</a> <i class="fa-solid fa-dice fa-lg"></i></i></li>
+                    <p class="project-info">A simple mini-game what i've made in progress of study Java Script</p>
                     <li class="list-item"><i class="fa-brands fa-github fa-xl"></i><a class="projects-url" href="https://github.com/Xavtso/ils-front.git">International Language School</a> <i class="fa-sharp fa-solid fa-school fa-lg"></i></li>
+                    <p class="project-info">I created this project to defend my coursework. This is a web platform for learning foreign languages. Here I created my database, the backend with the logic of all processes, my server that runs it all. (Unfortunately, I was able to upload only the frontend)</p>
                 </ul>
     
             </section>
@@ -81,35 +91,51 @@
                 <h2>Skills</h2>
                 
                 <div class="skill-item">
-                    <span class="labels">HTML & CSS</span>
+                    <span class="labels">HTML & CSS (SASS)</span>
                     <div class="mark">
                         <i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-regular fa-star fa-lg"></i><i class="fa-regular fa-star fa-lg"></i>
+                        <span class="specification">Junior</span>
                     </div>
                 </div>
                 <div class="skill-item">
                     <span class="labels">Java Script</span>
                     <div class="mark">
                         <i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-regular fa-star fa-lg"></i><i class="fa-regular fa-star fa-lg"></i>
+                        <span class="specification">Junior</span>
                     </div>
                 </div>
                 <div class="skill-item">
                     <span class="labels">Node.js</span>
                     <div class="mark">
                         <i class="fa-solid fa-star fa-lg"></i><i class="fa-regular fa-star fa-lg"></i><i class="fa-regular fa-star fa-lg"></i><i class="fa-regular fa-star fa-lg"></i><i class="fa-regular fa-star fa-lg"></i>
+                        <span class="specification">Beginner</span>
                     </div>
                 </div>
+                
                 <div class="skill-item">
                     <span class="labels">SQL</span>
                     <div class="mark">
                         <i class="fa-solid fa-star fa-lg"></i><i class="fa-regular fa-star fa-lg"></i><i class="fa-regular fa-star fa-lg"></i><i class="fa-regular fa-star fa-lg"></i><i class="fa-regular fa-star fa-lg"></i> 
+                        <span class="specification">Beginner +</span>
                     </div>
                 </div>
+
                 <div class="skill-item">
                     <span class="labels">Python</span>
                     <div class="mark">
                         <i class="fa-solid fa-star fa-lg"></i><i class="fa-regular fa-star fa-lg"></i><i class="fa-regular fa-star fa-lg"></i><i class="fa-regular fa-star fa-lg"></i><i class="fa-regular fa-star fa-lg"></i>
+                        <span class="specification">Beginner</span>
                     </div>
                 </div>
+
+                <div class="skill-item">
+                    <span class="labels">Next.js</span>
+                    <div class="mark">
+                        <i class="fa-solid fa-star fa-lg"></i><i class="fa-regular fa-star fa-lg"></i><i class="fa-regular fa-star fa-lg"></i><i class="fa-regular fa-star fa-lg"></i><i class="fa-regular fa-star fa-lg"></i>
+                        <span class="specification">Beginner</span>
+                    </div>
+                </div>
+
             </section>
             <hr>
             <section class="languages">
@@ -118,6 +144,7 @@
                     <span class="labels">English</span>
                     <div class="mark">
                         <i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-solid fa-star fa-lg"></i><i class="fa-regular fa-star fa-lg"></i><i class="fa-regular fa-star fa-lg"></i>
+                        <span class="specification">Intermediate</span>
                     </div>
             </section>
             <hr>
